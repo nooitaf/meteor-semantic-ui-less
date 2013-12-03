@@ -30,4 +30,4 @@ Template.hello.rendered = function(){
 To get assets working you will have to copy the 2 folders `/lib/semantic-ui/build/less/fonts/` and `/lib/semantic-ui/build/less/images/` into your `/public/`
 folder.
 
-See icon test on [http://semantic-ui-092-icon-test.meteor.com/](http://semantic-ui-092-icon-test.meteor.com/)
+See the Homepage example test on [http://semantic-ui-less-095-test.meteor.com/](http://semantic-ui-less-095-test.meteor.com/)
