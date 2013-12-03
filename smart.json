@@ -1,5 +1,5 @@
 {
-  "name": "semantic-ui",
+  "name": "semantic-ui-less",
   "description": "Semantic UI packaged for meteor using less",
   "homepage": "https://github.com/nooitaf/meteor-semantic-ui-less",
   "author": "nooitaf (http://nooitaf.nl)",
