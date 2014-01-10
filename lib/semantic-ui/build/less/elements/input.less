@@ -53,11 +53,11 @@
 
 /* browsers require these rules separate */
 
-.ui.input::-web inputkit-input-placeholder {
+.ui.input::-webkit-input-placeholder {
   color: #BBBBBB;
 }
 
-.ui.input::-moz input-placeholder {
+.ui.input::-moz-placeholder {
   color: #BBBBBB;
 }
 
@@ -269,6 +269,15 @@
   vertical-align: top;
 }
 
+.ui.fluid.action.input {
+  display: table;
+  width: 100%;
+}
+
+.ui.fluid.action.input > .button {
+  width: 0.01%;
+}
+
 /*--------------------
         Fluid
 ---------------------*/
@@ -283,10 +292,6 @@
 
 .ui.mini.input {
   font-size: 0.8125rem;
-}
-
-.ui.tiny.input {
-  font-size: 0.875rem;
 }
 
 .ui.small.input {
