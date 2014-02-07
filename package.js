@@ -87,4 +87,6 @@ Package.on_use(function (api) {
   ];
   api.add_files(assetFiles, 'client');
 
+  api.add_files('lib/fix-asset-paths-for-meteor.less', 'client');
+
 });

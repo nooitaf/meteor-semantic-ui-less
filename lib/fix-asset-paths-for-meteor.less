@@ -1,0 +1,121 @@
+/*
+ * Fix paths to assets by overriding them with a css file that comes later on in
+ * the build order.
+ *
+*/
+
+@font-face {
+  font-family: 'Basic Icons';
+  src: url(/lib/semantic-ui/build/less/fonts/basic.icons.eot);
+  src: url(/lib/semantic-ui/build/less/fonts/basic.icons.eot?#iefix) format('embedded-opentype'), url(/lib/semantic-ui/build/less/fonts/basic.icons.svg#basic.icons) format('svg'), url(/lib/semantic-ui/build/less/fonts/basic.icons.woff) format('woff'), url(/lib/semantic-ui/build/less/fonts/basic.icons.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none;
+}
+
+@font-face {
+  font-family: 'Icons';
+  src: url(/lib/semantic-ui/build/less/fonts/icons.eot);
+  src: url(/lib/semantic-ui/build/less/fonts/icons.eot?#iefix) format('embedded-opentype'), url(/lib/semantic-ui/build/less/fonts/icons.svg#icons) format('svg'), url(/lib/semantic-ui/build/less/fonts/icons.woff) format('woff'), url(/lib/semantic-ui/build/less/fonts/icons.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none;
+}
+
+.ui.form.loading:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-large.gif);
+}
+
+.ui.menu.loading:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-large.gif);
+}
+
+.ui.loading.button:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-mini.gif);
+}
+
+.ui.huge.loading.button:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-small.gif);
+}
+
+.ui.massive.buttons .loading.button:after,
+.ui.gigantic.buttons .loading.button:after,
+.ui.massive.loading.button:after,
+.ui.gigantic.loading.button:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-medium.gif);
+}
+
+.ui.huge.loading.button:after,
+.ui.huge.loading.button.active:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-small.gif);
+}
+
+.ui.massive.buttons .loading.button:after,
+.ui.gigantic.buttons .loading.button:after,
+.ui.massive.loading.button:after,
+.ui.gigantic.loading.button:after,
+.ui.massive.buttons .loading.button.active:after,
+.ui.gigantic.buttons .loading.button.active:after,
+.ui.massive.loading.button.active:after,
+.ui.gigantic.loading.button.active:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-medium.gif);
+}
+
+
+.ui.loading.input > .icon {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-mini.gif);
+}
+
+.ui.dimmer .mini.ui.loader,
+.ui.inverted .mini.ui.loader {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-mini-inverted.gif);
+}
+
+.ui.dimmer .small.ui.loader,
+.ui.inverted .small.ui.loader {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-small-inverted.gif);
+}
+
+.ui.dimmer .ui.loader,
+.ui.inverted.loader {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-medium-inverted.gif);
+}
+
+.ui.dimmer .large.ui.loader,
+.ui.inverted .large.ui.loader {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-large-inverted.gif);
+}
+
+.ui.inverted.dimmer .ui.mini.loader,
+.ui.mini.loader {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-mini.gif);
+}
+
+.ui.inverted.dimmer .ui.small.loader,
+.ui.small.loader {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-small.gif);
+}
+
+.ui.inverted.dimmer .ui.loader,
+.ui.loader {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-medium.gif);
+}
+
+.ui.inverted.dimmer .ui.loader.large,
+.ui.loader.large {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-large.gif);
+}
+
+.ui.search.loading .input .icon {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-mini.gif);
+}
+
+.ui.tab.loading:after {
+  background-image: url(/lib/semantic-ui/build/less/images/loader-large.gif);
+}
+
+

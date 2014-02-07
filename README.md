@@ -25,9 +25,3 @@ Template.hello.rendered = function(){
 	$('.ui.dropdown').dropdown();
 }
 ```
-
-### deploy to meteor.com
-To get assets working you will have to copy the 2 folders `/lib/semantic-ui/build/less/fonts/` and `/lib/semantic-ui/build/less/images/` into your `/public/`
-folder.
-
-See the Homepage example test on [http://semantic-ui-less-095-test.meteor.com/](http://semantic-ui-less-095-test.meteor.com/)
