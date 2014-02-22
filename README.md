@@ -1,7 +1,7 @@
 #Semantic UI package for meteor using less
 
 ##What is this?
-This is just a wrapper to use Semantic UI `v0.12.5` with meteor using less.
+This is just a wrapper to use Semantic UI `v0.13.0' with meteor using less.
 
 ##What is Semantic UI?
 Semantic is a set of specifications for sharing UI elements between developers. Semantic is also a UI library to make front end development simpler and easier to learn. 
@@ -27,6 +27,7 @@ Template.hello.rendered = function(){
 ```
 
 ### deploy to meteor.com
+#### only applies if version lower then 0.13.0:
 To get assets working you will have to copy the 2 folders `/lib/semantic-ui/build/less/fonts/` and `/lib/semantic-ui/build/less/images/` into your `/public/`
 folder.
 
