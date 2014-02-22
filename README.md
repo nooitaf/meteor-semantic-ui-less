@@ -1,9 +1,9 @@
-##Semantic UI package for meteor
+##Semantic UI package for meteor using less
 
 > Since 0.13.0: Deploy/Bundle copy-to-public-fix is not needed anymore! :)
 
 ###What is this?
-This is just a wrapper to use Semantic UI `v0.13.0` with meteor.
+This is just a wrapper to use Semantic UI `v0.13.0` with meteor using less.
 
 ###What is Semantic UI?
 Semantic is a set of specifications for sharing UI elements between developers. Semantic is also a UI library to make front end development simpler and easier to learn. 
