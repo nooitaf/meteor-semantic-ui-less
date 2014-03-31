@@ -30,5 +30,7 @@ Template.hello.rendered = function(){
 
 
 ---
+
 Version 0.13.0 Icon test [http://semantic-ui-0.13.0-icontest-less.meteor.com/](http://semantic-ui-0.13.0-icontest-less.meteor.com/)  
+
 ---
