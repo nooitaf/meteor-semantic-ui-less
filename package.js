@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Semantic UI packaged for meteor using less"
+  summary: "Semantic UI packaged for Meteor using less"
 });
 
 Package.on_use(function (api) {
